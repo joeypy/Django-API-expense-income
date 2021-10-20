@@ -142,3 +142,11 @@ EMAIL_PORT = env('EMAIL_PORT')
 EMAIL_HOST_USER = env('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
 EMAIL_USE_SSL = env('EMAIL_USE_SSL')
+
+# Django rest framework configuration
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+    'NON_FIELD_ERRORS_KEY': 'error'
+}

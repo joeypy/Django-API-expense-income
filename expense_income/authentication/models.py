@@ -14,6 +14,7 @@ class UserManager(BaseUserManager):
         user = self.model(username=username, email=self.normalize_email(email))
         user.set_password(password)
         user.save()
+        return user
 
     def create_superuser(self, username, email, password=None):
         if password is None:
@@ -33,7 +34,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']
