@@ -1,4 +1,4 @@
-# Django API - Expense Income
+# Django API - Expense Income 💲💲
 
 Django project to register all the expense income
 
