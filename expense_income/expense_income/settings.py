@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Django Rest Framework
     'rest_framework',
+    # Django Rest Framework simple JWT
+    'rest_framework_simplejwt',
     # Django Apps
     'authentication.apps.AuthenticationConfig'
 ]
