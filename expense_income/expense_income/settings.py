@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'rest_framework',
     # Django Rest Framework simple JWT
     'rest_framework_simplejwt',
+    # DRF-yasg - Yet another Swagger generator
+    'drf_yasg',
     # Django Apps
     'authentication.apps.AuthenticationConfig'
 ]
