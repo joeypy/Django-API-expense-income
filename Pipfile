@@ -8,6 +8,7 @@ django = "*"
 django-environ = "*"
 djangorestframework = "*"
 djangorestframework-simplejwt = "*"
+drf-yasg = "*"
 
 [dev-packages]
 
