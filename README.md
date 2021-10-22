@@ -4,7 +4,7 @@ Django project to register all the expense income
 
 ## Features
 1. Authentication system
-   1. Login
+   1. Login (JWT)
    2. Logout
    3. Registration
    4. Verify account with email
