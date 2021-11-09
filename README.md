@@ -14,5 +14,5 @@ Django project to register all the expense income
 
 ## Demo
 
-## Preview
+
 
